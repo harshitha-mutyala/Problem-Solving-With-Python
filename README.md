@@ -37,5 +37,5 @@ Validation
 
 | File | Description |
 |------|-------------|
-| `loops_simulation.ipynb` | Python notebook for simulations and plots |
-| `loop_model_writeup.pdf` | Full write-up of mathematical derivations and conclusions |
+| `Stochastic_Loop_Formations.ipynb` | Python notebook for simulations and plots |
+| `Stochastic Loop Formations.pdf` | Full write-up of mathematical derivations and conclusions |
