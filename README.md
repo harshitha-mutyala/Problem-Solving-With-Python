@@ -18,18 +18,18 @@ This project models a process in which pairs of string ends are tied together at
 ### Methods Used
 
 Mathematical Approach
-- Defined recursive expectations using custom-defined random variables. 
-- Derived closed-form probabilities where tractable.
-- Used combinatorial logic and conditional probability to form conjectures.
+- Defined recursive expectations using custom-defined random variables
+- Derived closed-form probabilities where tractable
+- Used combinatorial logic and conditional probability to form conjectures
 
 Simulation Approach (Python) 
-- Created a simulation of the string-tying process.
-- Verified analytic expressions against empirical results.  
-- Visualised loop-length distributions and expected values using Matplotlib.
+- Created a simulation of the string-tying process
+- Verified analytic expressions against empirical results
+- Visualised loop-length distributions and expected values using Matplotlib
 
 Validation
 - Matched theoretical predictions with simulation (e.g. P[loop of length N] ≈ 0.0887)  
-- Observed convergence in expectations as N → ∞.
+- Observed convergence in expectations as N → ∞
 
 ---
 
