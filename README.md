@@ -7,29 +7,29 @@ This project models a process in which pairs of string ends are tied together at
 
 ### Key Questions Addressed
 
-- What is the expected number of loops formed after \( k \) tying sessions, starting from \( N \) strings?
-- What is the probability of forming a loop of length exactly \( N \)?
-- How are loops of different lengths distributed after \( k \) ties?
+- What is the expected number of loops formed after k tying sessions, starting from N strings?
+- What is the probability of forming a loop of length exactly N?
+- How are loops of different lengths distributed after k ties?
 - What is the expected number of loops of length 1?
-- How does imposing structural restrictions (e.g., top-bottom matching) affect the outcomes?
+- How does imposing structural restrictions (e.g. top-bottom matching) affect the outcomes?
 
 ---
 
 ### Methods Used
 
 Mathematical Approach
-- Defined recursive expectations using custom-defined random variables \( A_n \), \( Z_k \), etc.  
-- Derived closed-form probabilities where tractable (e.g., \( P[Z_k = L] \), \( \mathbb{E}[Z_k] \))  
-- Used combinatorial logic and conditional probability to form conjectures
+- Defined recursive expectations using custom-defined random variables. 
+- Derived closed-form probabilities where tractable.
+- Used combinatorial logic and conditional probability to form conjectures.
 
 Simulation Approach (Python) 
-- Created a simulation of the string-tying process (10,000+ runs)
-- Verified analytic expressions against empirical results  
-- Visualised loop-length distributions and expected values using Matplotlib
+- Created a simulation of the string-tying process.
+- Verified analytic expressions against empirical results.  
+- Visualised loop-length distributions and expected values using Matplotlib.
 
 Validation
-- Matched theoretical predictions with simulation (e.g., \( P[\text{loop of length } N] \approx 0.0887 \))  
-- Observed convergence in expectations as \( N \to \infty \)
+- Matched theoretical predictions with simulation (e.g. P[loop of length N] ≈ 0.0887)  
+- Observed convergence in expectations as N → ∞.
 
 ---
 
